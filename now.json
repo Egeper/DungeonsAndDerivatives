@@ -1,3 +1,19 @@
 {
-  "name": "Math5-3QProj"
+  "name": "Math5-3Qproj",
+  "version": "1.0.0",
+  "description": "A video game that incorporates Definitions of Derivatives and Definition Rules. In fullfilment of the 3rd Quarter Project in Mathematics 5.",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@mikewesthad/dungeon": "1.2.2",
+    "electron": "4.0.8",
+    "phaser": "3.16.2"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
 }
